@@ -1,4 +1,6 @@
 @import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
 
 h1 {
     color:#6E819A;
@@ -37,11 +39,14 @@ li {
 .main_text h1 {
     font-size: 44px;
     margin:0;
+    font-family: 'Noto Sans', sans-serif;
     
 }
 
 .main_text p {
     font-size: 24px;
+    letter-spacing: 0.03em;
+    
 }
 .icon {
     width: 220px;

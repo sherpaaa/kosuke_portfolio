@@ -1,5 +1,24 @@
 @import url(sanitize.css);
 
+h1 {
+    color:#6E819A;
+
+}
+.container {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 220px;
+}
+
+
+.principle {
+    background-color: #FCFCFC;
+}
+
+
 footer {
     background-color: #8B8D8E;
 }

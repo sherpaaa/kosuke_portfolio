@@ -4,6 +4,16 @@ h1 {
     color:#6E819A;
 
 }
+
+h2 {
+    color:#6E819A;
+
+}
+
+p {
+    color:#2D2D2D;
+}
+
 .container {
     width: 780px;
     margin: 0 auto;
@@ -36,10 +46,28 @@ h1 {
     margin-right: 24px;
 }
 
-.principle {
+.mid_wrapper {
     background-color: #FCFCFC;
 }
 
+.mid_wrapper .container {
+    padding:80px 0 200px 0 ;
+
+}
+
+.principle h1 {
+    font-size:20px;
+    margin:0 0 10px 0;
+    font-weight: 100;
+    letter-spacing: 0.25em;
+
+}
+
+.principle p {
+    font-size: 16px;
+    line-height:38px;
+    letter-spacing: 0.06em;
+}
 
 footer {
     background-color: #8B8D8E;

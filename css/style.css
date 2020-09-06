@@ -2,18 +2,21 @@
 
 h1 {
     color:#6E819A;
-
 }
 
 h2 {
     color:#6E819A;
-
 }
 
 p {
     color:#2D2D2D;
 }
 
+li {
+    color:#2D2D2D;
+    margin-bottom: 10px;
+
+}
 .container {
     width: 780px;
     margin: 0 auto;
@@ -50,7 +53,7 @@ p {
     background-color: #FCFCFC;
 }
 
-.mid_wrapper .container {
+.principle {
     padding:80px 0 200px 0 ;
 
 }
@@ -69,6 +72,33 @@ p {
     letter-spacing: 0.06em;
 }
 
+
+.resume {
+    padding:80px 0 200px 0 ;
+
+}
+
+
+.resume h1 {
+    font-size:20px;
+    margin:0 0 10px 0;
+    font-weight: 100;
+    letter-spacing: 0.25em;
+
+}
+
+.job_period {
+    font-weight: 50;
+    font-size: 14px;
+
+}
+
 footer {
     background-color: #8B8D8E;
+    padding:20px 0 ;
+}
+
+footer p {
+    color:#FFF;
+    font-size:12px;
 }

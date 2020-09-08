@@ -64,11 +64,14 @@ li {
 
 .snsicon {
     margin-right: 20px;
-    color:#6E819A;
+    color:#8B8D8E;
 }
 
-.snsicon:hover {
-    color:#3B4E66;
+.animated:hover {
+    color:#6E819A;
+    animation-duration: 1s;
+    
+    
 }
 
 .mid_wrapper {

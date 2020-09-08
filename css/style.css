@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
 
+
 h1 {
     color:#6E819A;
     
@@ -52,14 +53,25 @@ li {
 .main_text p {
     font-size: 24px;
     letter-spacing: 0.03em;
+    margin:16px 0 24px 0 ;
     
 }
+
 .icon {
     width: 220px;
 }
 
-.main_text a {
-    margin-right: 24px;
+
+.snsicon {
+    margin-right: 20px;
+    color:#8B8D8E;
+}
+
+.animated:hover {
+    color:#6E819A;
+    animation-duration: 1s;
+    
+    
 }
 
 .mid_wrapper {

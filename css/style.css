@@ -22,6 +22,24 @@ p {
     color:#2D2D2D;
 }
 
+/* ワッパーのカラースタイル */
+
+
+.second-wrapper {
+    background-color: #FCFCFC;
+}
+
+.third-wrapper {
+    background-color: #FFF;
+
+}
+
+.fourth-wrapper {
+    background-color:rgb(229, 233, 236);
+}
+
+/* 各セクションのスタイル */
+
 .job-caption {
     color:#2D2D2D;
     margin-bottom: 10px;
@@ -74,10 +92,6 @@ p {
     
 }
 
-.mid_wrapper {
-    background-color: #FCFCFC;
-}
-
 .principle {
     padding:80px 0 200px 0 ;
 
@@ -114,7 +128,9 @@ p {
 
 }
 
-
+.job-top {
+    margin-bottom: 40px;
+}
 
 .job_period {
     font-weight: 50;
@@ -122,12 +138,32 @@ p {
 
 }
 
+.contact {
+    padding:80px 0 200px 0 ;
+}
+
+.contact-button {
+    padding:20px 40px;
+    font-size:14px;
+    color:#6E819A;
+    border:solid 2px #6e819a;
+    background-color: #fafcff;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+
+}
+
+.contact-text {
+    margin-bottom: 32px;
+}
+
 footer {
     background-color: #8B8D8E;
     padding:20px 0 ;
 }
 
-footer p {
+.footer-text {
     color:#FFF;
     font-size:12px;
+    text-align: center;
 }

@@ -39,18 +39,18 @@ li {
 
 }
 
-.main_img {
+.main-img {
     margin-right: 40px;
 }
 
-.main_text h1 {
+.main-title {
     font-size: 44px;
     margin:0;
     font-family: 'Noto Sans', sans-serif;
     
 }
 
-.main_text p {
+.main-caption {
     font-size: 24px;
     letter-spacing: 0.03em;
     margin:16px 0 24px 0 ;
@@ -62,7 +62,7 @@ li {
 }
 
 
-.snsicon {
+.sns-icon {
     margin-right: 20px;
     color:#8B8D8E;
 }
@@ -91,10 +91,11 @@ li {
 
 }
 
-.principle p {
+.principle-text {
     font-size: 16px;
-    line-height:38px;
-    letter-spacing: 0.06em;
+    line-height:30px;
+    letter-spacing: 0.03em;
+    margin:0 0 10px 0;
 }
 
 .principle_items {
@@ -109,7 +110,7 @@ li {
 }
 
 .principle p {
-    margin:0 0 10px 0;
+    
 }
 
 .resume {

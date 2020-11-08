@@ -46,7 +46,7 @@ p {
 
 }
 .container {
-    width: 780px;
+    max-width: 780px;
     margin: 0 auto;
 }
 
@@ -76,7 +76,7 @@ p {
 }
 
 .icon {
-    width: 220px;
+    max-width: 220px;
 }
 
 

@@ -24,9 +24,6 @@ p {
 
 /* ワッパーのカラースタイル */
 
-.first-wrapper {
-    height: 60vh;
-}
 .second-wrapper {
     background-color: #FCFCFC;
 }
@@ -55,8 +52,8 @@ p {
 
 .main {
     display:flex;
-    margin-top:20vh;
-    margin-bottom:20vh;
+    margin-top:25vh;
+    margin-bottom:25vh;
 
 }
 

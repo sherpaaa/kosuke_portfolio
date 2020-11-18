@@ -22,6 +22,60 @@ p {
     color:#2D2D2D;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 900px;
+    padding:0 40px;
+    margin: 0 auto;
+}
+
+/* ヘッダーのスタイル */
+
+.header {
+    background-color:#6E819A;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.header > .container {
+    display:flex;
+    align-items: center;
+    height:60px;
+    
+}
+
+.header-logo a {
+    font:300 15px/1em "futura"  ;
+    color:#fff;
+
+}
+
+.header-nav {
+    margin-left:auto;
+
+}
+
+.nav-list {
+    display:flex;
+    align-items: center;
+    
+}
+
+.nav-list > li + li {
+    margin-left:40px;
+}
+
+.nav-item a {
+    font:300 15px/1em "futura"  ;
+    color:#fff;
+}
+
 /* ワッパーのカラースタイル */
 
 .second-wrapper {
@@ -40,15 +94,9 @@ p {
 /* 各セクションのスタイル */
 
 
-.job-caption {
-    color:#2D2D2D;
-    margin-bottom: 10px;
+/* メインのスタイル */
 
-}
-.container {
-    max-width: 780px;
-    margin: 0 auto;
-}
+
 
 .main {
     display:flex;
@@ -92,7 +140,9 @@ p {
     
 }
 
-.principle {
+/* プリンシパルのスタイル */
+
+#principle {
     padding:80px 0 200px 0 ;
 
 }
@@ -118,12 +168,16 @@ p {
 }
 
 .principle_item {
-    width:250px;
+    width:33%;
     text-align: center;
 
 }
 
-.resume {
+
+/* レジュメのスタイル */
+
+
+#resume {
     padding:80px 0 200px 0 ;
 
 }
@@ -138,7 +192,16 @@ p {
 
 }
 
-.contact {
+.job-caption {
+    color:#2D2D2D;
+    margin-bottom: 10px;
+
+}
+
+
+/* コンタクトのスタイル */
+
+#contact {
     padding:80px 0 200px 0 ;
 }
 
@@ -156,6 +219,9 @@ p {
 .contact-text {
     margin-bottom: 32px;
 }
+
+
+/* フッターのスタイル */
 
 footer {
     background-color: #8B8D8E;

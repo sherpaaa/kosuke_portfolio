@@ -1,7 +1,6 @@
 @import url(sanitize.css);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 h1 {
     color:#6E819A;
@@ -10,11 +9,16 @@ h1 {
 
 h2 {
     color:#6E819A;
+    font:400 26px/1em  'Lato', sans-serif;
+    letter-spacing: 0.1em;
+   
 }
 
 
 p {
     color:#2D2D2D;
+    font:300 16px/2em  'Lato', sans-serif;
+    
 }
 
 a {
@@ -31,7 +35,7 @@ a {
 /* ヘッダーのスタイル */
 
 .header {
-    background-color:#6E819A;
+    background-color:transparent;
     position: fixed;
     top:0;
     left:0;
@@ -41,13 +45,14 @@ a {
 .header > .container {
     display:flex;
     align-items: center;
-    height:60px;
+    height:80px;
+    max-width: none;
     
 }
 
 .header-logo a {
-    font:300 15px/1em "futura"  ;
-    color:#fff;
+    font:300 24px/1em  'Lato', sans-serif;
+    color:#6E819A;
 
 }
 
@@ -67,8 +72,8 @@ a {
 }
 
 .nav-item a {
-    font:300 15px/1em "futura"  ;
-    color:#fff;
+    font:300 18px/1em  'Lato', sans-serif;
+    color:#6E819A;
 }
 
 /* ワッパーのカラースタイル */
@@ -83,7 +88,8 @@ a {
 }
 
 .fourth-wrapper {
-    background-color:rgb(229, 233, 236);
+    background-color:#F1F4F9
+    ;
 }
 
 /* 各セクションのスタイル */
@@ -91,12 +97,16 @@ a {
 
 /* メインのスタイル */
 
-
+.first-wrapper > .container {
+    height: 85vh; 
+    display: flex; 
+    align-items: center;
+}
 
 .main {
     display:flex;
-    margin-top:25vh;
-    margin-bottom:25vh;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -104,15 +114,18 @@ a {
     margin-right: 40px;
 }
 
+    
+}
 .main-title {
+    font:600 44px/1em 'lato', 'sans-serif';
     font-size: 44px;
     margin:0;
-    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.1em;
     
 }
 
 .main-caption {
-    font-size: 24px;
+    font:400 24px/1em 'lato', 'sans-serif';
     letter-spacing: 0.03em;
     margin:16px 0 24px 0 ;
     
@@ -143,16 +156,14 @@ a {
 }
 
 .thin_title {
-    font-size:20px;
+    font:300 24px/1em 'lato', 'sans-serif';
     margin:0 0 10px 0;
-    font-weight: 100;
     letter-spacing: 0.25em;
 
 }
 
 .principle-text {
-    font-size: 16px;
-    line-height:30px;
+    font:300 16px/2em  'Lato', sans-serif;
     letter-spacing: 0.03em;
     margin:0 0 10px 0;
 }
@@ -160,20 +171,26 @@ a {
 .principle_items {
     display:flex;
     margin-top:40px;
+    justify-content: space-between;
 }
 
 .principle_item {
-    width:33%;
+    width:30%;
     text-align: center;
 
 }
 
 .principle_item  h3 {
     color:#6E819A;
-    font-size: 26px;
+    font:400 26px/1em  'Lato', sans-serif;
+    letter-spacing: 0.1em;
 
 }
 
+.principle_item p {
+    font:300 16px/1.85em  'Lato', sans-serif;
+    
+}
 /* レジュメのスタイル */
 
 
@@ -187,8 +204,8 @@ a {
 }
 
 .job_period {
-    font-weight: 50;
-    font-size: 14px;
+    font:300 16px/2em  'Lato', sans-serif;
+    
 
 }
 
@@ -207,12 +224,13 @@ a {
 
 .contact-button {
     padding:20px 40px;
-    font-size:14px;
+    font:400 16px/1em 'lato', 'sans-serif';
+    
     color:#6E819A;
     border:solid 2px #6e819a;
     background-color: #fafcff;
     text-decoration: none;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.1em;
 
 }
 
@@ -224,12 +242,12 @@ a {
 /* フッターのスタイル */
 
 footer {
-    background-color: #8B8D8E;
+    background-color: #3B444F;
     padding:20px 0 ;
 }
 
 .footer-text {
     color:#FFF;
-    font-size:12px;
+    font:100 18px/1em 'lato', 'sans-serif';
     text-align: center;
 }

@@ -118,7 +118,6 @@ a {
 }
 .main-title {
     font:600 44px/1em 'lato', 'sans-serif';
-    font-size: 44px;
     margin:0;
     letter-spacing: 0.1em;
     
@@ -147,6 +146,36 @@ a {
     
     
 }
+
+/* レジュメのスタイル */
+
+
+#resume {
+    padding:80px 0 200px 0 ;
+
+}
+
+.job-top {
+    margin-bottom: 40px;
+}
+
+.job-period {
+    font:300 16px/2em  'Lato', sans-serif;
+    
+
+}
+
+.job-period ul {
+    padding-left:0;
+
+}
+
+.job-caption {
+    color:#2D2D2D;
+    margin-bottom: 10px;
+
+}
+
 
 /* プリンシパルのスタイル */
 
@@ -190,29 +219,6 @@ a {
 .principle_item p {
     font:300 16px/1.85em  'Lato', sans-serif;
     
-}
-/* レジュメのスタイル */
-
-
-#resume {
-    padding:80px 0 200px 0 ;
-
-}
-
-.job-top {
-    margin-bottom: 40px;
-}
-
-.job_period {
-    font:300 16px/2em  'Lato', sans-serif;
-    
-
-}
-
-.job-caption {
-    color:#2D2D2D;
-    margin-bottom: 10px;
-
 }
 
 

@@ -115,11 +115,11 @@ a {
 }
 
     
-}
+
 .main-title {
     font:600 44px/1em 'lato', 'sans-serif';
     margin:0;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     
 }
 
@@ -156,7 +156,8 @@ a {
 }
 
 .job-top {
-    margin-bottom: 40px;
+    
+    margin:40px 0 40px 0 ;
 }
 
 .job-period {
